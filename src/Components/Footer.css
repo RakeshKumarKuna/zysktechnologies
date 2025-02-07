@@ -1,0 +1,26 @@
+@media (max-width:932px) {
+
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+ .fotter-box{
+  display: grid;
+  grid-template-columns: 6fr 60fr;
+  gap: 50px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+}
+div{
+    color: #475467;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media (min-width:1025px) {
+
+    .fotter-box {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+   
+}
