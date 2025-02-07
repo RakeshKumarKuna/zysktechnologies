@@ -1,4 +1,5 @@
 import './App.css';
+import { Features } from './Components/Features.jsx';
 import './Components/HeaderSection.jsx'
 import { HeaderSection } from './Components/HeaderSection.jsx';
 import { Section } from './Components/Section.jsx';
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
      <HeaderSection></HeaderSection>
      <Section></Section>
+     <Features></Features>
     </div>
   );
 }

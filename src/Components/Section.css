@@ -1,4 +1,4 @@
-.custom-border{
+.custom-border {
     border: 1px solid #E63F3A4D;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.3);
@@ -6,52 +6,87 @@
     color: #E63F3A;
 }
 
-div p{
+div p {
     font-weight: 400px;
     color: #475467;
     margin-top: 2px;
 }
 
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
-    .main-content{
+.social-text{
+    font-weight: 500;
+    text-align: center;
+    color: #475467;
+}
+
+@media (min-width:1025px) {
+
+    /* big landscape tablets, laptops, and desktops */
+    .main-content {
         font-weight: 600;
         font-size: 50px;
     }
-    .button-box{
+
+    .button-box {
         display: flex;
+
         gap: 12px;
     }
-    .custom-button-one{
+
+    .custom-button-one {
         border: 1px solid #D0D5DD;
         border-radius: 108px;
         width: 114px;
         height: 48px;
         text-align: center;
-        padding: 12px 20px 12px 20px; /* top right bottom left */
+        padding: 12px 20px 12px 20px;
+        /* top right bottom left */
         color: #1a1b1c;
         font-weight: 48px;
+        cursor: pointer;
     }
-    .custom-button-two{
+
+    .custom-button-two {
         border: 1px solid #E63F3A;
         background-color: #E63F3A;
         border-radius: 108px;
         width: 114px;
         height: 48px;
         text-align: center;
-        padding: 12px 20px 12px 20px; /* top right bottom left */
+        padding: 12px 20px 12px 20px;
+        /* top right bottom left */
         color: white;
         font-weight: 48px;
+        cursor: pointer;
     }
-    .button-box{
+
+    .button-box {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
+    .custom-img {
+        margin-top: 30px;
+        height: 688px;
+        width: 1016px;
+    
+    }
+    .logo-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .logo-box img{
+        margin-right: 30px;
+        margin-top: 20px;
+    }
 }
 
-@media (max-width:932px)  { 
+@media (max-width:932px) {
+
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-    .main-content{
+    .main-content {
         font-weight: 600;
         font-size: 36px;
         display: flex;
@@ -59,34 +94,63 @@ div p{
         align-items: center;
         width: 300px;
     }
-    .button-box{
-        display: block;
+
+    .button-box {
+        display: flex;
+        flex-direction: column-reverse;
+
     }
-     .custom-button-one{
+
+    .custom-button-one {
         border: 1px solid #E63F3A;
         border-radius: 108px;
         background-color: #E63F3A;
         width: 380px;
         height: 48px;
         text-align: center;
-        padding: 12px 20px 12px 20px; /* top right bottom left */
+        padding: 12px 20px 12px 20px;
+        /* top right bottom left */
         color: white;
         font-weight: 48px;
         padding-left: 2px;
         padding-right: 2px;
+        cursor: pointer;
     }
-    .custom-button-two{
-        border: 1px solid  #D0D5DD;
-       margin-top: 8px;
+
+    .custom-button-two {
+        border: 1px solid #D0D5DD;
+        margin-bottom: 8px;
         border-radius: 108px;
         width: 380px;
         height: 48px;
         text-align: center;
-        padding: 12px 20px 12px 20px; /* top right bottom left */
+        padding: 12px 20px 12px 20px;
+        /* top right bottom left */
         color: darkgray;
         font-weight: 48px;
         padding-left: 2px;
         padding-right: 2px;
+        cursor: pointer;
     }
-    
+    .custom-img {
+        margin-top: 30px;
+        height: 194px;
+        width: 375px;
+        object-fit: fill;
+    }
+    .logo-box-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-box-mobile-first div{
+        
+        padding-bottom: 15px;
+        margin-left: 15px;
+    }
+    .logo-box-mobile-second div{
+        padding-bottom: 15px;
+        margin-left: 15px;
+    }
+
 }
