@@ -24,9 +24,11 @@
 }
 .second-row{
     display: inline-flex;
+    gap: 150px;
+    margin-top: 20px;
 }
 .head-text{
- width: 384px;
+ 
  height: 30px;
  font-weight: 600;
  font-size: 20px;
