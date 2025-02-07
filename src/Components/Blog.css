@@ -1,0 +1,30 @@
+@media (max-width:932px) {
+
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+.custom-button{
+    display: none;
+}
+.blog-box{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+}
+
+.clearfix{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+@media (min-width:1025px) {
+    .blog-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}

@@ -1,4 +1,5 @@
 import './App.css';
+import { Blog } from './Components/Blog.jsx';
 import { Faq } from './Components/Faq.jsx';
 import { Features } from './Components/Features.jsx';
 import './Components/HeaderSection.jsx'
@@ -14,6 +15,7 @@ function App() {
      <Features></Features>
      <Testimonal></Testimonal>
      <Faq></Faq>
+     <Blog></Blog>
     </div>
   );
 }
