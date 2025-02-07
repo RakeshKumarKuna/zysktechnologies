@@ -1,0 +1,32 @@
+hr {
+    border: 0.5px;
+    height: 0.1px;
+    color: #F2F4F7;  
+    background-color: #F2F4F7;
+   position: relative;
+   top: -10px;
+  }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .custom-margin div{
+        margin-right: 15px;
+       }
+       
+       .box{
+           display: grid;
+           grid-template-columns: 10fr 2fr;
+           margin-left: 40px;
+       }
+       .sidebar{
+        display: none;
+       }
+}
+@media (max-width:932px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .mobile-exclude{
+    display: none;
+  }
+  .box{
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+  }
+}

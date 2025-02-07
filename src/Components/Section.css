@@ -1,0 +1,92 @@
+.custom-border{
+    border: 1px solid #E63F3A4D;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.3);
+    opacity: 0.1px;
+    color: #E63F3A;
+}
+
+div p{
+    font-weight: 400px;
+    color: #475467;
+    margin-top: 2px;
+}
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .main-content{
+        font-weight: 600;
+        font-size: 50px;
+    }
+    .button-box{
+        display: flex;
+        gap: 12px;
+    }
+    .custom-button-one{
+        border: 1px solid #D0D5DD;
+        border-radius: 108px;
+        width: 114px;
+        height: 48px;
+        text-align: center;
+        padding: 12px 20px 12px 20px; /* top right bottom left */
+        color: #1a1b1c;
+        font-weight: 48px;
+    }
+    .custom-button-two{
+        border: 1px solid #E63F3A;
+        background-color: #E63F3A;
+        border-radius: 108px;
+        width: 114px;
+        height: 48px;
+        text-align: center;
+        padding: 12px 20px 12px 20px; /* top right bottom left */
+        color: white;
+        font-weight: 48px;
+    }
+    .button-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:932px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    .main-content{
+        font-weight: 600;
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+    .button-box{
+        display: block;
+    }
+     .custom-button-one{
+        border: 1px solid #E63F3A;
+        border-radius: 108px;
+        background-color: #E63F3A;
+        width: 380px;
+        height: 48px;
+        text-align: center;
+        padding: 12px 20px 12px 20px; /* top right bottom left */
+        color: white;
+        font-weight: 48px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .custom-button-two{
+        border: 1px solid  #D0D5DD;
+       margin-top: 8px;
+        border-radius: 108px;
+        width: 380px;
+        height: 48px;
+        text-align: center;
+        padding: 12px 20px 12px 20px; /* top right bottom left */
+        color: darkgray;
+        font-weight: 48px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    
+}
